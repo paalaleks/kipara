@@ -6,6 +6,7 @@ export default function Hero() {
       <div className="bg-[url('/wavy.svg')] bg-cover bg-no-repeat w-full absolute top-0 left-0 min-h-screen z-0" />
       <div className="max-w-3xl self-end z-20 relative px-4 mx-auto">
         <Image
+          alt="packraft Kipara logo text"
           src="/kipara.svg"
           width={153}
           height={110}
@@ -20,6 +21,7 @@ export default function Hero() {
             som ligger i sekken. Storfisken er mye nærmere med packraft.
           </p>
           <Image
+            alt="kipara logo"
             src="/logo.png"
             width={153}
             height={110}

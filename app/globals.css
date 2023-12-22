@@ -3,9 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --color-accent-2: #eff7ff;
-  --color-accent-1: #e8db7d;
-  --color-variation-1: #283d3d;
-  --color-variation-2: #558c8c;
-  --color-variation-3: #158e8e;
+  --color-accent-1: #f6bd22;
+  --color-accent-2: #f1b40c;
+  --color-accent-3: #c5981c;
+  --color-variation-1: #182224;
+  --color-variation-2: #46413b;
+}
+
+@font-face {
+  font-family: Trailmade;
+  src: url(../public/fonts/TRAILMADE.OTF);
+  weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Trailmade;
 }
